@@ -1,0 +1,25 @@
+.card:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.cardImg {
+  background: white;
+  height: 15rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: inherit;
+}
+
+.cardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardTitle:hover {
+  overflow: visible;
+  white-space: normal;
+}

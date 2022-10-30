@@ -1,0 +1,9 @@
+.text-black {
+  color: black;
+}
+.bg-light {
+  background-color: white;
+}
+.bg-light-primary {
+  background-color: #191659 !important;
+}
